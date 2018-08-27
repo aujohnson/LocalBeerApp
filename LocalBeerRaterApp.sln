@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalBeerRaterApp.WebMVC", "LocalBeerRaterApp.WebMVC\LocalBeerRaterApp.WebMVC.csproj", "{AD6F1E59-8D94-4475-A95D-049BC3F4BB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalBeer.Data", "LocalBeer.Data\LocalBeer.Data.csproj", "{83D44EA3-6CDE-45F8-BDC9-BDC22D65C493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalBeer.Services", "LocalBeer.Services\LocalBeer.Services.csproj", "{88BDC820-E189-4D34-8955-B5DE222F012C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalBeer.Models", "LocalBeer.Models\LocalBeer.Models.csproj", "{828E6576-46F9-4C9B-881B-1458DF363F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalBeerRater.Tests", "LocalBeerRater.Tests\LocalBeerRater.Tests.csproj", "{D589616A-C73F-4461-B797-072E06598B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalBeer.Contracts", "LocalBeer.Contracts\LocalBeer.Contracts.csproj", "{7C3CA457-3E05-4DAA-A7C3-2DCD2245D6F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD6F1E59-8D94-4475-A95D-049BC3F4BB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6F1E59-8D94-4475-A95D-049BC3F4BB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6F1E59-8D94-4475-A95D-049BC3F4BB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6F1E59-8D94-4475-A95D-049BC3F4BB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D44EA3-6CDE-45F8-BDC9-BDC22D65C493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D44EA3-6CDE-45F8-BDC9-BDC22D65C493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D44EA3-6CDE-45F8-BDC9-BDC22D65C493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D44EA3-6CDE-45F8-BDC9-BDC22D65C493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BDC820-E189-4D34-8955-B5DE222F012C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BDC820-E189-4D34-8955-B5DE222F012C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BDC820-E189-4D34-8955-B5DE222F012C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BDC820-E189-4D34-8955-B5DE222F012C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828E6576-46F9-4C9B-881B-1458DF363F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828E6576-46F9-4C9B-881B-1458DF363F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828E6576-46F9-4C9B-881B-1458DF363F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828E6576-46F9-4C9B-881B-1458DF363F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D589616A-C73F-4461-B797-072E06598B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D589616A-C73F-4461-B797-072E06598B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D589616A-C73F-4461-B797-072E06598B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D589616A-C73F-4461-B797-072E06598B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3CA457-3E05-4DAA-A7C3-2DCD2245D6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3CA457-3E05-4DAA-A7C3-2DCD2245D6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3CA457-3E05-4DAA-A7C3-2DCD2245D6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3CA457-3E05-4DAA-A7C3-2DCD2245D6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10F428AB-33ED-45EC-80C9-15C696AF774F}
+	EndGlobalSection
+EndGlobal

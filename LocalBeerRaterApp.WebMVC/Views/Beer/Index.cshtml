@@ -1,0 +1,50 @@
+﻿@model IEnumerable<LocalBeer.Models.BeerListItem>
+@{
+    //Try Changing Index to Something Like Beer List or another Name
+    //Add another 2 tables for application
+    ViewBag.Title = "Index";
+}
+<h2>Index</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@if (TempData.ContainsKey("SaveResult"))
+{
+    <div class="alert alert-success fade in" role="alert">
+
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+        @TempData["SaveResult"]
+    </div>
+}
+<table class="table">
+    <tr>
+        <th>Beer Name</th>
+        <th>Beer Type</th>
+        <th>Rating</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            <p>@item.BeerName</p>
+        </td>
+
+        <td>
+            <p>@item.BeerType</p>
+        </td>
+    
+
+        <td>
+            <p>@item.BeerId</p>
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.BeerId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.BeerId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.BeerId })
+        </td>
+    </tr>
+    }
+</table>
