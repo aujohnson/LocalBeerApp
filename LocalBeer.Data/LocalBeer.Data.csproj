@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Beer.cs" />
+    <Compile Include="Brewery.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Migrations\201808212044106_UpdateBeerClass.cs" />
     <Compile Include="Migrations\201808212044106_UpdateBeerClass.Designer.cs">
@@ -74,6 +75,18 @@
     <Compile Include="Migrations\201808232002515_NewEditView.cs" />
     <Compile Include="Migrations\201808232002515_NewEditView.Designer.cs">
       <DependentUpon>201808232002515_NewEditView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808281508113_NewBreweryClass.cs" />
+    <Compile Include="Migrations\201808281508113_NewBreweryClass.Designer.cs">
+      <DependentUpon>201808281508113_NewBreweryClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808282029378_newUpdate.cs" />
+    <Compile Include="Migrations\201808282029378_newUpdate.Designer.cs">
+      <DependentUpon>201808282029378_newUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808300016331_Updoot.cs" />
+    <Compile Include="Migrations\201808300016331_Updoot.Designer.cs">
+      <DependentUpon>201808300016331_Updoot.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -97,6 +110,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808232002515_NewEditView.resx">
       <DependentUpon>201808232002515_NewEditView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808281508113_NewBreweryClass.resx">
+      <DependentUpon>201808281508113_NewBreweryClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808282029378_newUpdate.resx">
+      <DependentUpon>201808282029378_newUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808300016331_Updoot.resx">
+      <DependentUpon>201808300016331_Updoot.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

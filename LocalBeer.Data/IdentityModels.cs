@@ -41,6 +41,7 @@ namespace LocalBeer.Data
             return new ApplicationDbContext();
         }
 
+        public DbSet<Brewery> Breweries { get; set; }
         public DbSet<Beer> Beers { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -57,6 +58,9 @@ namespace LocalBeer.Data
     }
 
 
+
+
+
     public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
     {
         public IdentityUserLoginConfiguration()
@@ -71,5 +75,11 @@ namespace LocalBeer.Data
         {
             HasKey(iul => iul.RoleId);
         }
+
+        public static ApplicationDbContext Create()
+        {
+            return new ApplicationDbContext();
+        }
+
     }
 }

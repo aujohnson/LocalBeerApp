@@ -57,6 +57,10 @@
     <Compile Include="BeerDetail.cs" />
     <Compile Include="BeerEdit.cs" />
     <Compile Include="BeerListItem.cs" />
+    <Compile Include="BreweryCreate.cs" />
+    <Compile Include="BreweryDetail.cs" />
+    <Compile Include="BreweryEdit.cs" />
+    <Compile Include="BreweryListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -49,6 +49,7 @@ namespace LocalBeer.Services
                                     BeerId = e.BeerId,
                                     BeerName = e.BeerName,
                                     BeerType = e.BeerType,
+                                    BeerRating= e.BeerRating,
                                     CreatedUtc = e.OrderDateUtc
                                 }
                         );

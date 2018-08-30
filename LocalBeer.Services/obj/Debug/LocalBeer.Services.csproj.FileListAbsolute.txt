@@ -1,0 +1,44 @@
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.csprojAssemblyReference.cache
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.csproj.CoreCompileInputs.cache
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Services.dll.config
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Services.dll
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Services.pdb
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\EntityFramework.dll
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Data.dll
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Models.dll
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Data.pdb
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Data.dll.config
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Models.pdb
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Models.dll.config
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\EntityFramework.xml
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.csproj.CopyComplete
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.dll
+C:\Users\Eleven Fifty\Desktop\LocalBeerRaterApp-master (1)\LocalBeerRaterApp-master\Users\Austin\source\repos\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.pdb
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Services.dll.config
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Services.dll
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Services.pdb
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\EntityFramework.dll
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Data.dll
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Models.dll
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Data.pdb
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Data.dll.config
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Models.pdb
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\LocalBeer.Models.dll.config
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\EntityFramework.xml
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.csprojAssemblyReference.cache
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.csproj.CoreCompileInputs.cache
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.csproj.CopyComplete
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.dll
+C:\dotnetproj\LocalBeerRaterApp\LocalBeerRaterApp\LocalBeer.Services\obj\Debug\LocalBeer.Services.pdb

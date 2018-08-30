@@ -17,18 +17,20 @@ namespace LocalBeer.Models
         [MaxLength(8000)]
         public string BeerType { get; set; }
 
+        private int _beerrating;
+
 
         public int BeerRating
         {
-            get { return BeerRating; }
+            get { return _beerrating; }
             set
             {
                 if (value > 5M)
                 {
-                    BeerRating = 5;
+                    _beerrating = 5;
                 } else if (value < 1)
                 {
-                    BeerRating = 1;
+                    _beerrating = 1;
                 }
             }
 

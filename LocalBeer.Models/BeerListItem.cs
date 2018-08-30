@@ -9,8 +9,8 @@ namespace LocalBeer.Models
 {
     public class BeerListItem
     {
-        
-            public int BeerId { get; set; }
+        public int BeerRating { get; set; }
+        public int BeerId { get; set; }
             public string BeerName { get; set; }
             public string BeerType { get; set; }
 
