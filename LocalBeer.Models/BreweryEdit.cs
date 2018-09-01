@@ -8,5 +8,12 @@ namespace LocalBeer.Models
 {
     public class BreweryEdit
     {
+        public int BreweryId { get; set; }
+
+        public string BreweryName { get; set; }
+
+        public string BreweryAddress { get; set; }
+
+        public string BreweryDescription { get; set; }
     }
 }

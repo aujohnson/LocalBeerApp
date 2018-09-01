@@ -11,8 +11,8 @@ namespace LocalBeer.Models
     {
         public int BeerRating { get; set; }
         public int BeerId { get; set; }
-            public string BeerName { get; set; }
-            public string BeerType { get; set; }
+        public string BeerName { get; set; }
+        public string BeerType { get; set; }
 
         [Display(Name = "Created")]
             public DateTimeOffset CreatedUtc { get; set; }

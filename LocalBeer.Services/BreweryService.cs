@@ -45,14 +45,65 @@ namespace LocalBeer.Services
                             e =>
                                 new BreweryListItem
                                 {
-                                    BreweryId = e.BreweryId,
                                     BreweryName = e.BreweryName,
-                                    BreweryAddress = e.BreweryAddress
+                                    BreweryAddress = e.BreweryAddress,
+                                    BreweryDescription = e.BreweryDescription,
                                 }
                         );
 
                 return query.ToArray();
             }
         }
+        public BreweryDetail GetBreweryById(int breweryId)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Breweries
+                        .Single(e => e.BreweryId == breweryId && e.OwnerId == _userId);
+                return
+                    new BreweryDetail
+                    {
+                        BreweryId = entity.BreweryId,
+                        BreweryName = entity.BreweryName,
+                        BreweryAddress = entity.BreweryAddress,
+                        BreweryDescription = entity.BreweryDescription,
+                    };
+            }
+        }
+
+        public bool UpdateBrewery(BreweryEdit model)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Breweries
+                        .Single(e => e.BreweryId == model.BreweryId && e.OwnerId == _userId);
+
+
+                entity.BreweryId = model.BreweryId;
+                entity.BreweryAddress = model.BreweryAddress;
+                entity.BreweryDescription = model.BreweryDescription;
+
+                return ctx.SaveChanges() == 1;
+
+            }
+        }
+            public bool DeleteBrewery(int breweryId)
+            {
+                using (var ctx = new ApplicationDbContext())
+                {
+                    var entity =
+                        ctx
+                            .Breweries
+                            .Single(e => e.BreweryId == breweryId && e.OwnerId == _userId);
+
+                ctx.Breweries.Remove(entity);
+
+                return ctx.SaveChanges() == 1;
+                }
+            }
+        }
     }
-}

@@ -13,5 +13,8 @@ namespace LocalBeer.Models
         public string BreweryName { get; set; }
 
         public string BreweryAddress { get; set; }
+
+        public string BreweryDescription { get; set; }
+
     }
 }
