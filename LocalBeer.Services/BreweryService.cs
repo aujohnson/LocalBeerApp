@@ -45,6 +45,7 @@ namespace LocalBeer.Services
                             e =>
                                 new BreweryListItem
                                 {
+                                    BreweryId = e.BreweryId,
                                     BreweryName = e.BreweryName,
                                     BreweryAddress = e.BreweryAddress,
                                     BreweryDescription = e.BreweryDescription,

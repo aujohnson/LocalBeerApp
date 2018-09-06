@@ -10,6 +10,7 @@ namespace LocalBeer.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            ContextKey = "LocalBeer.Data.ApplicationDbContext";
         }
 
         protected override void Seed(LocalBeer.Data.ApplicationDbContext context)

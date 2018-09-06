@@ -56,37 +56,13 @@
     <Compile Include="Beer.cs" />
     <Compile Include="Brewery.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Migrations\201808212044106_UpdateBeerClass.cs" />
-    <Compile Include="Migrations\201808212044106_UpdateBeerClass.Designer.cs">
-      <DependentUpon>201808212044106_UpdateBeerClass.cs</DependentUpon>
+    <Compile Include="Migrations\201809051336561_InitialCreate.cs" />
+    <Compile Include="Migrations\201809051336561_InitialCreate.Designer.cs">
+      <DependentUpon>201809051336561_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201808221829533_update.cs" />
-    <Compile Include="Migrations\201808221829533_update.Designer.cs">
-      <DependentUpon>201808221829533_update.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201808231408235_UpdateBeer.cs" />
-    <Compile Include="Migrations\201808231408235_UpdateBeer.Designer.cs">
-      <DependentUpon>201808231408235_UpdateBeer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201808231416518_UpdateBeerService.cs" />
-    <Compile Include="Migrations\201808231416518_UpdateBeerService.Designer.cs">
-      <DependentUpon>201808231416518_UpdateBeerService.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201808232002515_NewEditView.cs" />
-    <Compile Include="Migrations\201808232002515_NewEditView.Designer.cs">
-      <DependentUpon>201808232002515_NewEditView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201808281508113_NewBreweryClass.cs" />
-    <Compile Include="Migrations\201808281508113_NewBreweryClass.Designer.cs">
-      <DependentUpon>201808281508113_NewBreweryClass.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201808282029378_newUpdate.cs" />
-    <Compile Include="Migrations\201808282029378_newUpdate.Designer.cs">
-      <DependentUpon>201808282029378_newUpdate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201808300016331_Updoot.cs" />
-    <Compile Include="Migrations\201808300016331_Updoot.Designer.cs">
-      <DependentUpon>201808300016331_Updoot.cs</DependentUpon>
+    <Compile Include="Migrations\201809051424224_NewData.cs" />
+    <Compile Include="Migrations\201809051424224_NewData.Designer.cs">
+      <DependentUpon>201809051424224_NewData.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,29 +72,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201808212044106_UpdateBeerClass.resx">
-      <DependentUpon>201808212044106_UpdateBeerClass.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201809051336561_InitialCreate.resx">
+      <DependentUpon>201809051336561_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808221829533_update.resx">
-      <DependentUpon>201808221829533_update.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808231408235_UpdateBeer.resx">
-      <DependentUpon>201808231408235_UpdateBeer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808231416518_UpdateBeerService.resx">
-      <DependentUpon>201808231416518_UpdateBeerService.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808232002515_NewEditView.resx">
-      <DependentUpon>201808232002515_NewEditView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808281508113_NewBreweryClass.resx">
-      <DependentUpon>201808281508113_NewBreweryClass.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808282029378_newUpdate.resx">
-      <DependentUpon>201808282029378_newUpdate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808300016331_Updoot.resx">
-      <DependentUpon>201808300016331_Updoot.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201809051424224_NewData.resx">
+      <DependentUpon>201809051424224_NewData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

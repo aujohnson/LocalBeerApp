@@ -52,6 +52,7 @@ namespace LocalBeerRaterApp.WebMVC.Controllers
         {
             var svc = CreateBeerService();
             var model = svc.GetBeerById(id);
+
             return View(model);
         }
 
@@ -64,7 +65,9 @@ namespace LocalBeerRaterApp.WebMVC.Controllers
                 {
                     BeerId = detail.BeerId,
                     BeerName = detail.BeerName,
-                    BeerType = detail.BeerType
+                    BeerType = detail.BeerType,
+                    BeerRating = detail.BeerRating,
+                    
                 };
             return View(model);
         }

@@ -9,10 +9,10 @@ namespace LocalBeer.Data
 {
     public class Brewery
     {
-        [Key]
+        [Required]
         public string BreweryName { get; set; }
 
-        [Required]
+        [Key]
         public int BreweryId { get; set; }
 
         [Required]

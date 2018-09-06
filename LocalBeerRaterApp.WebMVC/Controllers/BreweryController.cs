@@ -56,8 +56,9 @@ namespace LocalBeerRaterApp.WebMVC.Controllers
             var svc = CreateBreweryService();
             var model = svc.GetBreweryById(id);
 
-     return View(model);
+            return View(model);
         }
+
         public ActionResult Edit(int id)
         {
             var service = CreateBreweryService();
@@ -73,6 +74,7 @@ namespace LocalBeerRaterApp.WebMVC.Controllers
                 };
             return View(model);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, BreweryEdit model)
